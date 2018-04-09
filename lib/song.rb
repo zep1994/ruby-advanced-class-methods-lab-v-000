@@ -26,10 +26,10 @@ class Song
   end
   
 
-  def self.find_or_create_by_name(finnamd_it)
+  def self.find_or_create_by_name(name)
     found = self.find_by_name(name)
     if found == nil
-     self.create_by_name(find_it)
+     self.create_by_name(name)
     else
       found
     end
