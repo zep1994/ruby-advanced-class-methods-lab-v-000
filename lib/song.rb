@@ -25,7 +25,7 @@ class Song
     self.all.detect {|song| song.name == name}
   end
   
-<<<<<<< HEAD
+
   def self.find_or_create_by_name(find_it)
     found = self.find_by_name(find_it)
     if found == nil
@@ -69,8 +69,6 @@ class Song
     self.all.clear
   end
   
-=======
->>>>>>> bb2722a6772993bd53705a9db9e6e6000d16d8c3
   def self.all
     @@all
   end
