@@ -43,8 +43,7 @@ class Song
      self.find_by_name
     end
   end 
->>>>>>> bb2722a6772993bd53705a9db9e6e6000d16d8c3
-  
+
   def self.alphabetical
     self.all.sort_by { |x| x.name}
   end 
