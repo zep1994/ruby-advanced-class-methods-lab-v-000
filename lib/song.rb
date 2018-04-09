@@ -45,8 +45,7 @@ class Song
   def self.alphabetical
     self.all.sort_by { |song| song.name}
   end 
-  
-<<<<<<< HEAD
+
  def self.new_from_filename(mp3)
     cd = self.new 
     cd.name = mp3.split(/[^a-zA-Z\s]|\s-\s/)[1] 
@@ -65,9 +64,7 @@ class Song
   def self.destroy_all
     self.all.clear
   end
-  
-=======
->>>>>>> bb2722a6772993bd53705a9db9e6e6000d16d8c3
+
   def self.all
     @@all
   end
