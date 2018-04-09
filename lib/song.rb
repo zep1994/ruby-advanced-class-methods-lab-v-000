@@ -26,8 +26,8 @@ class Song
   end
   
 
-  def self.find_or_create_by_name(find_it)
-    found = self.find_by_name(find_it)
+  def self.find_or_create_by_name(finnamd_it)
+    found = self.find_by_name(name)
     if found == nil
      self.create_by_name(find_it)
     else
