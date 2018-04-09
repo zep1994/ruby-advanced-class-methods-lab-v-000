@@ -38,7 +38,7 @@ class Song
     if self.find_by_name == nil
       song = self.create_by_name(name) 
     else
-     self.find_by_name(name)
+     self.find_by_name
     end
   end 
 
